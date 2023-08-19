@@ -118,7 +118,7 @@ const caster = mouseRay(canvas, camera)
 
 
 canvas.addEventListener("click",x=>{
-    if(helper.isHover()) return
+    if(helper.isHover() || x.ctrlKey) return
     const ray = caster.cast(x,objects)
     if(ray.intersect)
     {
