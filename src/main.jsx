@@ -5,8 +5,12 @@ import { CreateLights } from "./lib/lights";
 import { basic } from "./lib/basic";
 
 
-import { gizmo } from "three-gizmo";
+import { gizmo,setColor } from "three-gizmo";
 
+
+setColor("color1",0xff0000)
+setColor("color2",0x00ff00)
+setColor("color3",0x0000ff)
 
 import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
