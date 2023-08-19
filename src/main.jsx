@@ -165,7 +165,11 @@ function select(item)
     {
         selected = null
         outlinePass.selectedObjects = [];
-        lastTool = helper.selectedTool
+        if(helper.selectedTool != "none")
+        {
+            lastTool = helper.selectedTool
+        }
+
         helper.none()
         return
     }

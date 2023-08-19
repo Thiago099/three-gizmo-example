@@ -11,7 +11,7 @@
   "dependencies": {
     "magic-dom": "^5.1.8",
     "three": "^0.155.0",
-    "three-gizmo": "^1.0.17",
+    "three-gizmo": "^1.0.22",
     "vite": "^4.4.8"
   }
 }
