@@ -44,6 +44,7 @@ const tips =
     <p>Ctrl + Right drag (Pan camera)</p>
     <p>Click in "Add" to create a cube</p>
     <p>Click in "Delete" to remove the selected cube</p>
+    <p>Click on a object to select it</p>
     <p>When scaling by two axis, press the shift key for a uniform scaling</p>
     
 </div>
